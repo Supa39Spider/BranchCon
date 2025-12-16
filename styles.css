@@ -55,7 +55,7 @@ button {
     margin: 0.5rem;
     cursor: pointer;
     border-radius: 4px;
-    align-content: center;
+    align-items: center;
 }
 
 section.navigation {
@@ -63,5 +63,15 @@ section.navigation {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active, button.current {
+    background-color: #000;
 }
